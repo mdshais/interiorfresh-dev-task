@@ -39,12 +39,12 @@ A responsive multi-step form wizard built with Next.js 15, TypeScript, and Tailw
 
 1. Clone or download the project
 2. Install dependencies:
-   \`\`\`bash
+   \`\`\`
    npm install
    \`\`\`
 
 3. Run the development server:
-   \`\`\`bash
+   \`\`\`
    npm run dev
    \`\`\`
 
@@ -103,4 +103,4 @@ The form data will be logged to the browser console and sent to the mock API end
 ## 📄 License
 
 This project is open source and available under the MIT License.
-\`\`\`
+
