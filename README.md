@@ -39,20 +39,20 @@ A responsive multi-step form wizard built with Next.js 15, TypeScript, and Tailw
 
 1. Clone or download the project
 2. Install dependencies:
-   \`\`\`
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Run the development server:
-   \`\`\`
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 🏗️ Project Structure
 
-\`\`\`
+```bash
 ├── app/
 │   ├── api/submit-project/route.ts    # API endpoint for form submission
 │   ├── projects/new/page.tsx          # Project creation wizard
@@ -65,15 +65,15 @@ A responsive multi-step form wizard built with Next.js 15, TypeScript, and Tailw
 │   │   ├── project-details-step.tsx   # Step 1 component
 │   │   ├── room-selection-step.tsx    # Step 2 component
 │   │   └── summary-step.tsx           # Step 3 component
-│   └── ui/                            # ui components
+│   └── ui/                            # UI components
 ├── lib/
-│   ├── room-data.ts                  # Room type definitions
-│   ├── validation.ts                 # Form validation functions
-│   └── utils.ts                      # Utility functions
+│   ├── room-data.ts                   # Room type definitions
+│   ├── validation.ts                  # Form validation functions
+│   └── utils.ts                       # Utility functions
 ├── types/
-│   └── form.ts                       # TypeScript type definitions
+│   └── form.ts                        # TypeScript type definitions
 └── README.md
-\`\`\`
+```
 
 
 ## 🚀 Deployment
